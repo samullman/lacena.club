@@ -3,13 +3,20 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Find Us</title>
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
-<h1>About</h1>
+<h1>Find Us</h1>
 
-<p class="title">Hello!</p>
+<h3>Book with your favorite platform below:</h3>
+<ul>
+	<li>Eventbrite</li>
+
+	<li>Meetup.com</li>
+
+	<li>Foursquare</li>
+</ul>
 
 <br />
 

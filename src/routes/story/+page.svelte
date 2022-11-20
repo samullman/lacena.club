@@ -7,9 +7,24 @@
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
-<h1>About</h1>
+<h1>Our Story</h1>
 
-<p class="title">Hello!</p>
+<p class="title">Born out of the desire to break bread.</p>
+
+<p class="title">
+	We're exploding throughout the world to bring the best vibes available to dinner goers everywhere.
+</p>
+
+<p>We love food – and know the power of bringing people together.</p>
+
+<p>
+	Let's <a href="/find-us">find a time</a> to meet and have a conversation over a bottle of wine and
+	beef bourguignon.
+</p>
+
+<p>See you next time,</p>
+
+<p>La Cena Team</p>
 
 <br />
 

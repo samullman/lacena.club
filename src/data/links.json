@@ -1,7 +1,22 @@
 [
 	{
+		"url": "/story",
+		"title": "Our Story"
+	},
+
+	{
+		"url": "/find-us",
+		"title": "Find Us"
+	},
+
+	{
 		"url": "/about",
 		"title": "About"
+	},
+
+	{
+		"url": "/calendar",
+		"title": "Calendar"
 	},
 
 	{

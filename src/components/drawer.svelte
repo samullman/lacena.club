@@ -104,7 +104,7 @@
 
 		<div class="contents">
 			<!-- <h3>{$page.url.host}</h3> -->
-			<h3>Sam Ullman ↔ Web Developer</h3>
+			<h3>lacena.club</h3>
 
 			<nav>
 				<div>

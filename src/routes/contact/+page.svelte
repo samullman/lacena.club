@@ -44,7 +44,7 @@
 
 <svelte:head>
 	<title>Contact | Massive</title>
-	<meta name="description" content="Turning energy into assets." />
+	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
 <h1>Contact</h1>
