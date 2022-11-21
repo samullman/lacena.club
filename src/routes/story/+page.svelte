@@ -23,20 +23,11 @@
 
 	<LazyImage src="/dinner-ppl.jpeg" alt="Dinner People" />
 
-	<p>
-		Let's <a href="/find-us">find a time</a> to meet and have a conversation over a bottle of wine and
-		beef bourguignon.
-	</p>
+	<p>Let's to meet and have a conversation over a bottle of wine and beef bourguignon.</p>
 
 	<p>See you next time,</p>
 
 	<p>La Cena Team</p>
-
-	<p class="title">
-		<a href="/contact" title="Contact">Contact</a>.
-	</p>
-
-	<br />
 </div>
 
 <style lang="scss">

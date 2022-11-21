@@ -12,24 +12,20 @@
 </div>
 
 <div class="page">
-	<h3>Book with your favorite platform below:</h3>
+	<h3>Book with us on your favorite platform below:</h3>
 	<ul>
-		<li>Eventbrite</li>
+		<li>
+			<a href="https://eventbrite.com/" target="_blank"> Eventbrite </a>
+		</li>
 
-		<li>Meetup.com</li>
+		<li>
+			<a href="https://meetup.com/" target="_blank"> Meetup.com </a>
+		</li>
 
-		<li>Foursquare</li>
+		<li>
+			<a href="https://foursquare.com/" target="_blank"> Foursquare </a>
+		</li>
 	</ul>
-
-	<br />
-
-	<LazyImage src="/sunset.png" alt="Sunset" />
-
-	<br />
-
-	<p class="title">
-		<a href="/contact" title="Contact">Contact</a>.
-	</p>
 
 	<br />
 </div>

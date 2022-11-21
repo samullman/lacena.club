@@ -11,21 +11,7 @@
 	<h1>About</h1>
 </div>
 
-<div class="page">
-	<p class="title">Hello!</p>
-
-	<br />
-
-	<LazyImage src="/dinner-ppl.jpeg" alt="Sunset" />
-
-	<br />
-
-	<p class="title">
-		<a href="/contact" title="Contact">Contact</a>.
-	</p>
-
-	<br />
-</div>
+<div class="page" />
 
 <style lang="scss">
 	p {
