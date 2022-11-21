@@ -7,21 +7,25 @@
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
-<h1>About</h1>
+<div class="h1-wrapper">
+	<h1>About</h1>
+</div>
 
-<p class="title">Hello!</p>
+<div class="page">
+	<p class="title">Hello!</p>
 
-<br />
+	<br />
 
-<LazyImage src="/sunset.png" alt="Sunset" />
+	<LazyImage src="/sunset.png" alt="Sunset" />
 
-<br />
+	<br />
 
-<p class="title">
-	<a href="/contact" title="Contact">Contact</a>.
-</p>
+	<p class="title">
+		<a href="/contact" title="Contact">Contact</a>.
+	</p>
 
-<br />
+	<br />
+</div>
 
 <style lang="scss">
 	p {

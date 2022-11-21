@@ -7,28 +7,32 @@
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
-<h1>Find Us</h1>
+<div class="h1-wrapper">
+	<h1>Find Us</h1>
+</div>
 
-<h3>Book with your favorite platform below:</h3>
-<ul>
-	<li>Eventbrite</li>
+<div class="page">
+	<h3>Book with your favorite platform below:</h3>
+	<ul>
+		<li>Eventbrite</li>
 
-	<li>Meetup.com</li>
+		<li>Meetup.com</li>
 
-	<li>Foursquare</li>
-</ul>
+		<li>Foursquare</li>
+	</ul>
 
-<br />
+	<br />
 
-<LazyImage src="/sunset.png" alt="Sunset" />
+	<LazyImage src="/sunset.png" alt="Sunset" />
 
-<br />
+	<br />
 
-<p class="title">
-	<a href="/contact" title="Contact">Contact</a>.
-</p>
+	<p class="title">
+		<a href="/contact" title="Contact">Contact</a>.
+	</p>
 
-<br />
+	<br />
+</div>
 
 <style lang="scss">
 	p {

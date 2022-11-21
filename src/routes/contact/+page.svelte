@@ -47,55 +47,59 @@
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
-<h1>Contact</h1>
+<div class="h1-wrapper">
+	<h1>Contact</h1>
+</div>
 
-<p>
-	Lorem ipsum ipsum lorem
-	<a href="https://www.calendly.com/samullman/meeting" target="_blank">Calendly</a>.
-</p>
-
-<br />
-
-<div class="grid">
-	<form
-		class="form"
-		action="https://formspree.io/f/mqknbjry"
-		method="POST"
-		on:submit={handleSubmit}
-	>
-		<div>
-			<label for="name">Name</label>
-			<input name="name" required />
-		</div>
-
-		<div>
-			<label for="email">Email</label>
-			<input type="email" name="name" required />
-		</div>
-
-		<div>
-			<label for="phone">Phone</label>
-			<input type="tel" name="name" />
-		</div>
-
-		<div>
-			<label for="organization">Organization</label>
-			<input name="organization" />
-		</div>
-
-		<div>
-			<label for="message">Message</label>
-			<textarea name="message" rows="5" />
-		</div>
-
-		<div>
-			<button type="submit"> Submit </button>
-		</div>
-	</form>
+<div class="page">
+	<p>
+		Lorem ipsum ipsum lorem
+		<a href="https://www.calendly.com/samullman/meeting" target="_blank">Calendly</a>.
+	</p>
 
 	<br />
 
-	<div class="status" />
+	<div class="grid">
+		<form
+			class="form"
+			action="https://formspree.io/f/mqknbjry"
+			method="POST"
+			on:submit={handleSubmit}
+		>
+			<div>
+				<label for="name">Name</label>
+				<input name="name" required />
+			</div>
+
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="name" required />
+			</div>
+
+			<div>
+				<label for="phone">Phone</label>
+				<input type="tel" name="name" />
+			</div>
+
+			<div>
+				<label for="organization">Organization</label>
+				<input name="organization" />
+			</div>
+
+			<div>
+				<label for="message">Message</label>
+				<textarea name="message" rows="5" />
+			</div>
+
+			<div>
+				<button type="submit"> Submit </button>
+			</div>
+		</form>
+
+		<br />
+
+		<div class="status" />
+	</div>
 </div>
 
 <!-- <div class="logo-grid">

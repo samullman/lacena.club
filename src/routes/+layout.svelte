@@ -2,6 +2,7 @@
 	import '../../src/app.scss';
 	import Header from '../components/header.svelte';
 	import Footer from '../components/footer.svelte';
+
 	// import { page } from '$app/stores';
 	// import pageViews from '../stores/page';
 	// import { beforeUpdate } from 'svelte';
@@ -14,20 +15,13 @@
 	// });
 </script>
 
-<div class="page">
-	<Header />
+<Header />
 
-	<main>
-		<slot />
-	</main>
+<main>
+	<slot />
+</main>
 
-	<Footer />
-</div>
+<Footer />
 
 <style lang="scss">
-	.page {
-		max-width: 42rem;
-		width: 100%;
-		margin: 0 auto;
-	}
 </style>

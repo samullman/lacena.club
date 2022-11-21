@@ -7,31 +7,35 @@
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
-<h1>Let's do dinner.</h1>
-
-<p>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-	nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-	esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-	in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-
-<h3>Find us on:</h3>
-<ul>
-	<li>Eventbrite</li>
-
-	<li>Meetup.com</li>
-
-	<li>Foursquare</li>
-</ul>
-
-<div class="image-styles">
-	<LazyImage src="/sunset.png" alt="Sunset" />
+<div class="h1-wrapper">
+	<h1>Let’s do dinner.</h1>
 </div>
 
-<br />
-<br />
+<div class="page">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<h3>Find us on:</h3>
+	<ul>
+		<li>Eventbrite</li>
+
+		<li>Meetup.com</li>
+
+		<li>Foursquare</li>
+	</ul>
+
+	<div class="image-styles">
+		<LazyImage src="/sunset.png" alt="Sunset" />
+	</div>
+
+	<br />
+	<br />
+</div>
 
 <style lang="scss">
 	.image-styles {

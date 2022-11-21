@@ -1,20 +1,34 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
 
-$breakpoint: 30rem;
+$breakpoint: 40rem;
 $dark: #262323;
-$dark: #232623;
-$light: #f5f3f3;
-$light: #e8ecf2;
-$light: #f2f1e8;
+
+$light: #ebe1cf;
+$off-white: #f5efe6;
+$dark-white: #ecdbbc;
+$dark-yellow: #a1885b;
+
+$background: #dbb46c;
+
+$middle-green: #596852;
+
+$body-font: 'bd-supper';
+$header-font: 'cooper-black-std';
+
+$blue: #343b66;
+$light-blue: #858bab;
+
+$max-width: 42rem;
 
 $red: #e23d3d;
+// $red: #9b4c3a;
 $dark-red: #961212;
 $dark-red-2: #961616;
 $light-green: #9be253;
 $dark-green: #579637;
 $neon-green: #53e253;
 $sky-blue: #36e2e2;
-$blue: #2626e2;
+// $blue: #2626e2;
 $cyan: #26e2e2;
 $dark-cyan: #199681;
 $purple: #8a31e2;

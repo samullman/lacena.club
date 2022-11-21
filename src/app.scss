@@ -21,17 +21,39 @@ h6 {
 	font-weight: 900;
 }
 
+.page {
+	max-width: $max-width;
+	width: 100%;
+	margin: 0 auto;
+
+	padding: 0.75rem;
+
+	@media screen and (min-width: $breakpoint) {
+		padding: 2rem;
+	}
+}
+
+.h1-wrapper {
+	background: $dark-white;
+}
+
 h1 {
 	font-size: 3rem;
-
+	font-style: italic;
+	color: $red;
 	margin-bottom: 2rem;
-	font-family: 'Syne';
+	font-family: $header-font;
 	font-weight: 900;
+
+	padding: 1rem;
+	max-width: $max-width;
+	margin: 2rem auto;
 
 	@media screen and (max-width: $breakpoint) {
 		font-size: 2.5rem;
-		margin-bottom: 1.5rem;
-		margin-top: 2.5rem;
+		padding-bottom: 1.5rem;
+		padding-top: 2.5rem;
+		margin: 0;
 	}
 }
 
@@ -46,15 +68,14 @@ button {
 }
 
 body {
-	background: $light;
-	color: $dark;
+	background: $off-white;
+	color: $dark-yellow;
 	transition: background 0.2s ease;
-	font-family: 'Space Mono', monospace;
-	padding: 0.75rem;
-
-	@media screen and (min-width: $breakpoint) {
-		padding: 2rem;
-	}
+	font-family: $body-font;
+	padding: 0;
+	margin: 0;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
 }
 
 body.dark-mode {
@@ -74,15 +95,18 @@ a.cancel-background {
 }
 
 a {
-	text-decoration-thickness: 0.2rem;
-	text-decoration-color: #a3e5a6d9;
+	// text-decoration-thickness: 0.25rem;
+	text-decoration: none;
+	text-decoration-color: $light;
 	transition: all 0.4s ease;
-	background: $light;
+	color: $middle-green;
+	// font-family: $header-font;
+	// background: $light;
 	display: inline-block;
 	// padding: 0 0.5rem;
 
 	&:hover {
-		background: #a3e5a6d9;
+		color: $blue;
 	}
 }
 

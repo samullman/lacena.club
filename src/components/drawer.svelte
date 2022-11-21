@@ -134,9 +134,9 @@
 		flex-direction: column-reverse;
 
 		gap: 0.5rem;
-		padding: 0.4rem;
-		background: $light;
-		backdrop-filter: blur(5px);
+		// padding: 0.2rem;
+		// background: $light;
+		// backdrop-filter: blur(5px);
 		border-radius: 0.5rem;
 		overflow: hidden;
 		border: 0.2rem;
@@ -238,13 +238,13 @@
 	button {
 		font-size: 1.5rem;
 		padding: 0.35rem 0.75rem;
-		background: #677ea0;
+		background: $middle-green;
 		border: none;
 		color: $light;
 		border-radius: 0.25rem;
 
 		&:hover {
-			background: $dark;
+			background: $blue;
 		}
 	}
 
