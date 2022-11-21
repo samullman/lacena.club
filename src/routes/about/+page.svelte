@@ -16,7 +16,7 @@
 
 	<br />
 
-	<LazyImage src="/sunset.png" alt="Sunset" />
+	<LazyImage src="/dinner-ppl.jpeg" alt="Sunset" />
 
 	<br />
 

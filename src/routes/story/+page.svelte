@@ -21,6 +21,8 @@
 
 	<p>We love food – and know the power of bringing people together.</p>
 
+	<LazyImage src="/dinner-ppl.jpeg" alt="Dinner People" />
+
 	<p>
 		Let's <a href="/find-us">find a time</a> to meet and have a conversation over a bottle of wine and
 		beef bourguignon.
@@ -29,12 +31,6 @@
 	<p>See you next time,</p>
 
 	<p>La Cena Team</p>
-
-	<br />
-
-	<LazyImage src="/together.jpeg" alt="Together" />
-
-	<br />
 
 	<p class="title">
 		<a href="/contact" title="Contact">Contact</a>.
