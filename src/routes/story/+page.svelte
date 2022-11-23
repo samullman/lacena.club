@@ -3,31 +3,42 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Story</title>
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
 <div class="h1-wrapper">
-	<h1>Our Story</h1>
+	<h1>Our story</h1>
 </div>
 
 <div class="page">
-	<p class="title">Born out of the desire to break bread.</p>
+	<p>
+		We're <a href="/about/moly">Moly</a> and <a href="/about/sam">Sam</a> – two Austin, TX residents
+		interested in food and community.
+	</p>
+	<p>La Cena was born out of the desire to break bread with fresh company in the Austin area.</p>
 
-	<p class="title">
-		We're exploding throughout the world to bring the best vibes available to dinner goers
-		everywhere.
+	<p>
+		We believe great things happen when humans get together over an amazing meal and wanted to share
+		the oppotunity with everyone in town.
 	</p>
 
-	<p>We love food – and know the power of bringing people together.</p>
-
 	<LazyImage src="/dinner-ppl.jpeg" alt="Dinner People" />
+	<p>
+		This is a unique opportunity to bring humans human together and share time over an amazing
+		dinner and company.
+	</p>
 
-	<p>Let's to meet and have a conversation over a bottle of wine and beef bourguignon.</p>
+	<p>
+		What better way to get together than over a curated, one-time multiple course meal at some of
+		the best dining establishments in Texas. Tickets are available on a first come first serve basis
+		and available to all.
+	</p>
 
-	<p>See you next time,</p>
-
-	<p>La Cena Team</p>
+	<p>
+		We believe great things happen when we get together over an amazing meal. love food – and know
+		the power of bringing people together.
+	</p>
 </div>
 
 <style lang="scss">

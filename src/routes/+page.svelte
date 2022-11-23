@@ -4,29 +4,25 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Humans coming together." />
+	<meta name="description" content="Let's do dinner." />
 </svelte:head>
 
 <div class="h1-wrapper">
-	<h1>Let’s do dinner.</h1>
+	<h1>Welcome to the club!</h1>
 </div>
 
-<div class="page" />
+<div class="page">
+	<h2>
+		Let's do <a href="/calendar">dinner</a>.
+	</h2>
+
+	<p>
+		We're cooking up some of the best opportunities to dine with fellow Austintines. Tickets are
+		available on a first-come, first-serve basis and seating is limited!
+	</p>
+
+	<LazyImage src="/dinner-table.jpeg" alt="Dinner Table" />
+</div>
 
 <style lang="scss">
-	.image-styles {
-		position: relative;
-		max-height: 400px;
-		max-width: 800px;
-		margin-top: 2rem;
-		margin-bottom: 1rem;
-		display: block;
-	}
-
-	.icon {
-		width: 0.8rem;
-		position: relative;
-		top: 0.1rem;
-		left: 0.12rem;
-	}
 </style>

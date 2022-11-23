@@ -1,17 +1,17 @@
 [
 	{
 		"url": "/story",
-		"title": "Our Story"
-	},
-
-	{
-		"url": "/find-us",
-		"title": "Find Us"
+		"title": "Our story"
 	},
 
 	{
 		"url": "/about",
 		"title": "About"
+	},
+
+	{
+		"url": "/find-us",
+		"title": "Find us"
 	},
 
 	{

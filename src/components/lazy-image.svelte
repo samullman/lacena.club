@@ -12,7 +12,13 @@
 <style lang="scss">
 	img {
 		max-height: 400px;
-		max-width: 100%;
+		
+		width: 100%;
 		margin: 0.5rem auto;
+
+		@media screen and (min-width: $breakpoint) { 
+			max-width: 100%;
+		}
 	}
+
 </style>

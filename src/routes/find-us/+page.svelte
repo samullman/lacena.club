@@ -3,27 +3,27 @@
 </script>
 
 <svelte:head>
-	<title>Find Us</title>
+	<title>Find us</title>
 	<meta name="description" content="Humans coming together." />
 </svelte:head>
 
 <div class="h1-wrapper">
-	<h1>Find Us</h1>
+	<h1>Find us</h1>
 </div>
 
 <div class="page">
-	<h3>Book with us on your favorite platform below:</h3>
+	<h2>Stay in touch!</h2>
 	<ul>
-		<li>
-			<a href="https://eventbrite.com/" target="_blank"> Eventbrite </a>
-		</li>
-
 		<li>
 			<a href="https://meetup.com/" target="_blank"> Meetup.com </a>
 		</li>
 
 		<li>
-			<a href="https://foursquare.com/" target="_blank"> Foursquare </a>
+			<a href="https://eventbrite.com/" target="_blank"> Eventbrite </a>
+		</li>
+
+		<li>
+			<a href="https://instagram.com/lacenaclub" target="_blank"> Instagram </a>
 		</li>
 	</ul>
 

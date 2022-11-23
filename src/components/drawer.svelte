@@ -104,12 +104,11 @@
 
 		<div class="contents">
 			<!-- <h3>{$page.url.host}</h3> -->
-			<h3>lacena.club</h3>
+				<a href="/" class="cancel-background">
+				<img src="/la-cena-logo-alt.svg" alt="La Cena Logo" />
+			</a>
 
 			<nav>
-				<div>
-					<a href="/" title="Home" on:click={() => (open = false)}> Home </a>
-				</div>
 
 				{#each links as link}
 					<div>
@@ -204,6 +203,9 @@
 	.close-button {
 		padding: 0.35rem 0.9rem;
 		padding-bottom: 0.2rem;
+		position: relative;
+		top: 1rem;
+		right: 1rem;
 
 		svg {
 			width: 1.5rem;
@@ -212,12 +214,17 @@
 	}
 
 	.drawer {
-		padding: 1rem;
 		background: $light;
-		height: calc(100% - 2rem);
+		height: calc(100%);
 
 		.contents {
-			padding-top: 2rem;
+			padding: 2rem;
+			
+
+			img {
+				max-width: 280px;
+				margin-bottom: 1rem;
+			}
 		}
 
 		@media screen and (min-width: $breakpoint) {

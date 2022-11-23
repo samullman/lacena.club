@@ -5,10 +5,14 @@
 
 <div class="wrapper">
 	<header>
-		<div>
+		<div class="title">
 			<a href="/" class="cancel-background">
-				<img src="/la-cena-logo.svg" alt="La Cena Logo" />
+				<img src="/la-cena-logo-alt.svg" alt="La Cena Logo" />
 			</a>
+
+				<!-- <a href="/" class="cancel-background">
+				lacena.club
+			</a> -->
 		</div>
 
 		<div>
@@ -31,7 +35,25 @@
 
 <style lang="scss">
 	.wrapper {
-		background: $background;
+		// background: $background;
+	}
+
+	.title {
+		font-weight: bold;
+		font-family: $header-font;
+		max-width: 280px;
+		margin: 1rem 0;
+		
+
+		@media screen and (min-width: $breakpoint) { 
+			max-width: 400px;
+			margin-bottom: 2rem;
+		margin-top: 1rem;
+		}
+
+		a:hover {
+			color: $red;
+		}
 	}
 
 	header {
@@ -44,14 +66,17 @@
 
 	header,
 	nav {
+		
+
 		ul {
 			display: flex;
 			flex-direction: row;
 			gap: 1.5rem;
 			padding-left: 0;
 			list-style: none;
-			font-family: $header-font;
-			font-size: 1.2rem;
+			font-family: $body-font;
+			// font-family: Space Mono;
+			font-size: 1.32rem;
 
 			@media screen and (max-width: $breakpoint) {
 				display: none;
