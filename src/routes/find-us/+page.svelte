@@ -12,10 +12,9 @@
 </div>
 
 <div class="page">
-	<h2>Stay in touch!</h2>
 	<ul>
 		<li>
-			<a href="https://meetup.com/" target="_blank"> Meetup.com </a>
+			<a href="https://meetup.com/la-cena-club" target="_blank" > Meetup.com </a>
 		</li>
 
 		<li>

@@ -12,22 +12,31 @@
 </div>
 
 <div class="page">
-	<p>
-		We're <a href="/about/moly">Moly</a> and <a href="/about/sam">Sam</a> – two Austin, TX residents
-		interested in food and community.
-	</p>
-	<p>La Cena was born out of the desire to break bread with fresh company in the Austin area.</p>
+	
+	<p>La Cena ("The Dinner") Club was born out of the desire to break bread with fresh company in the Austin area.</p>
 
 	<p>
-		We believe great things happen when humans get together over an amazing meal and wanted to share
-		the oppotunity with everyone in town.
+		We believe amazing things happen when great people get together over delicious food.
 	</p>
 
-	<LazyImage src="/dinner-ppl.jpeg" alt="Dinner People" />
 	<p>
+		This is your opportunity to experience unique, full-course meals in a socially driven environment at some of Austin's top culinary destinations. 
+	</p>
+
+	<p>
+		Hope to see you soon. 
+	</p>
+
+	<a href="/calendar">
+		<button>
+			Calendar
+		</button>
+	</a>
+
+	<!-- <p>We're setting up unique opportunities to dine at some of Austin's finest culinary destinations.
+
 		This is a unique opportunity to bring humans human together and share time over an amazing
-		dinner and company.
-	</p>
+		dinner and company.</p>
 
 	<p>
 		What better way to get together than over a curated, one-time multiple course meal at some of
@@ -38,7 +47,7 @@
 	<p>
 		We believe great things happen when we get together over an amazing meal. love food – and know
 		the power of bringing people together.
-	</p>
+	</p> -->
 </div>
 
 <style lang="scss">

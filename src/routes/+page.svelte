@@ -13,16 +13,23 @@
 </div>
 
 <div class="page">
-	<h2>
-		Let's do <a href="/calendar">dinner</a>.
-	</h2>
+
+	<p>La Cena ("The Dinner") Club was born out of the desire to break bread with fresh company in the Austin area.</p>
 
 	<p>
-		We're cooking up some of the best opportunities to dine with fellow Austintines. Tickets are
-		available on a first-come, first-serve basis and seating is limited!
+		We believe amazing things happen when great people get together over incredible food.
 	</p>
 
-	<LazyImage src="/dinner-table.jpeg" alt="Dinner Table" />
+	<p>
+		This is your opportunity to experience unique, full-course meals in a socially driven environment at some of Austin's top culinary destinations. 
+	</p>
+
+	<p>
+		Hope to see you soon. 
+	</p>
+
+	
+	
 </div>
 
 <style lang="scss">
