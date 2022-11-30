@@ -1,4 +1,6 @@
 <script>
+	import EmailCapture from '../../components/email-capture.svelte';
+
 	const socials = [
 		{
 			title: 'Calendly',
@@ -101,6 +103,8 @@
 		<div class="status" />
 	</div>
 </div>
+
+<EmailCapture />
 
 <!-- <div class="logo-grid">
 	{#each socials as item}

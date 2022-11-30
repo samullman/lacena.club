@@ -1,5 +1,6 @@
 <script>
 	import LazyImage from '../../components/lazy-image.svelte';
+	import EmailCapture from '../../components/email-capture.svelte';
 </script>
 
 <svelte:head>
@@ -34,6 +35,8 @@
 		</li>
 	</ul> -->
 </div>
+
+<EmailCapture />
 
 <style lang="scss">
 	p {

@@ -1,5 +1,6 @@
 <script>
 	import LazyImage from '../../components/lazy-image.svelte';
+	import EmailCapture from '../../components/email-capture.svelte';
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
 <div class="page">
 	<ul>
 		<li>
-			<a href="https://meetup.com/la-cena-club" target="_blank" > Meetup.com </a>
+			<a href="https://meetup.com/la-cena-club" target="_blank"> Meetup.com </a>
 		</li>
 
 		<li>
@@ -28,6 +29,8 @@
 
 	<br />
 </div>
+
+<EmailCapture />
 
 <style lang="scss">
 	p {

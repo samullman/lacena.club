@@ -30,21 +30,22 @@
 
 	.email-wrapper {
 		background: $red;
+		margin: 1rem 0;
 
 		.nest {
 			padding: 1rem;
 			max-width: $max-width;
-			margin: 1rem auto;
+			margin: 0.8rem auto;
 
 			@media screen and (min-width: $breakpoint) {
-				margin: 2rem auto;
+				margin: 1.5rem auto;
 			}
 		}
 
 		h2 {
 			font-style: italic;
 			color: $dark-white;
-			font-size: 2rem;
+			font-size: 1.6rem;
 			margin-top: 0;
 			font-family: $header-font;
 

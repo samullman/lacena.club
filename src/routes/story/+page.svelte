@@ -1,5 +1,6 @@
 <script>
 	import LazyImage from '../../components/lazy-image.svelte';
+	import EmailCapture from '../../components/email-capture.svelte';
 </script>
 
 <svelte:head>
@@ -12,33 +13,26 @@
 </div>
 
 <div class="page">
-	
-	<p>
-		We decided post-pandemic to start a dinner club. With all the comotion 
-	</p>
+	<p>We decided post-pandemic to start a dinner club. With all the comotion</p>
+
+	<p>And where do the best memories happen? At the dinner table of course!</p>
 
 	<p>
-		And where do the best memories happen? At the dinner table of course!
+		La Cena ("The Dinner") Club was born out of the desire to break bread with fresh company in the
+		Austin area.
 	</p>
 
-	<p>La Cena ("The Dinner") Club was born out of the desire to break bread with fresh company in the Austin area.</p>
-
-	<p>
-		We believe amazing things happen when great people get together over delicious food.
-	</p>
+	<p>We believe amazing things happen when great people get together over delicious food.</p>
 
 	<p>
-		This is your opportunity to experience unique, full-course meals in a socially driven environment at some of Austin's top culinary destinations. 
+		This is your opportunity to experience unique, full-course meals in a socially driven
+		environment at some of Austin's top culinary destinations.
 	</p>
 
-	<p>
-		Hope to see you soon. 
-	</p>
+	<p>Hope to see you soon.</p>
 
 	<a href="/calendar">
-		<button>
-			Calendar
-		</button>
+		<button> Calendar </button>
 	</a>
 
 	<!-- <p>We're setting up unique opportunities to dine at some of Austin's finest culinary destinations.
@@ -57,6 +51,8 @@
 		the power of bringing people together.
 	</p> -->
 </div>
+
+<EmailCapture />
 
 <style lang="scss">
 </style>

@@ -1,5 +1,6 @@
 <script>
 	import LazyImage from '../../components/lazy-image.svelte';
+	import EmailCapture from '../../components/email-capture.svelte';
 </script>
 
 <svelte:head>
@@ -34,6 +35,8 @@
 	<h2>Where can I sign up?</h2>
 	<p>Check out our <a href="/find-us">find us</a> page for announcements and staying in touch!</p>
 </div>
+
+<EmailCapture />
 
 <style lang="scss">
 </style>
