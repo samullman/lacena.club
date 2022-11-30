@@ -24,13 +24,13 @@ h6 {
 
 .page {
 	max-width: $max-width;
-	width: calc(100% - 1.5rem);
+	width: calc(100% - 2rem);
 	margin: 0 auto;
 	padding: 1rem;
 
 	@media screen and (min-width: $breakpoint) {
 		padding: 2rem;
-		width: 100%;
+		width: calc(100% - 4rem);
 	}
 }
 
@@ -39,24 +39,22 @@ h6 {
 }
 
 h1 {
-	font-size: 3rem;
 	font-style: italic;
 	color: $red;
 	color: $dark-white;
-	margin-bottom: 2rem;
 	font-family: $header-font;
 	font-weight: 900;
 
 	padding: 1rem;
 	max-width: $max-width;
-	margin: 2rem auto;
+	font-size: 2.5rem;
 
-	@media screen and (max-width: $breakpoint) {
-		font-size: 2.5rem;
-		padding-bottom: 2rem;
-		padding-top: 2rem;
-		margin: 0;
-		line-height: 120%;
+	margin: 1rem auto;
+	line-height: 120%;
+
+	@media screen and (min-width: $breakpoint) {
+		margin: 1rem auto;
+		font-size: 3rem;
 	}
 }
 

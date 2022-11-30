@@ -21,11 +21,15 @@
 		margin-top: 4rem;
 		margin-bottom: 1rem;
 		display: flex;
-		justify-content: space-between;
+		padding: 1rem;
+		flex-direction: column;
+		justify-content: left;
 
-		@media screen and (max-width: $breakpoint) {
-			flex-direction: column;
-			justify-content: left;
+		@media screen and (min-width: $breakpoint) {
+			justify-content: space-between;
+			flex-direction: row;
+
+			padding: 2rem;
 		}
 	}
 </style>
