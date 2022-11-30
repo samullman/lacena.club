@@ -1,5 +1,6 @@
 <script>
 	import LazyImage from '../components/lazy-image.svelte';
+	import EmailCapture from '../components/email-capture.svelte';
 </script>
 
 <svelte:head>
@@ -15,8 +16,8 @@
 	<LazyImage src="/silver-fruit.jpeg" alt="Lemon" />
 
 	<p>
-		La Cena ("The Dinner") Club was born out of the desire to break bread with fresh company in the
-		Austin area.
+		La Cena ({'“'}The Dinner{'”'}) Club was born out of the desire to break bread with fresh company
+		in the Austin area.
 	</p>
 
 	<p>We believe amazing things happen when great people get together over incredible food.</p>
@@ -30,6 +31,8 @@
 		Hope to <a href="/calendar">see you soon</a>.
 	</p>
 </div>
+
+<EmailCapture />
 
 <style lang="scss">
 </style>

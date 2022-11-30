@@ -18,7 +18,6 @@
 	footer {
 		max-width: $max-width;
 		margin: 0 auto;
-		margin-top: 4rem;
 		margin-bottom: 1rem;
 		display: flex;
 		padding: 1rem;
