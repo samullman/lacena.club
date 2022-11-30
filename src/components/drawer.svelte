@@ -212,6 +212,7 @@
 		position: relative;
 		top: 1rem;
 		right: 1rem;
+		max-width: 54px;
 
 		svg {
 			width: 1.5rem;
