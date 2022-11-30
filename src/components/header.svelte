@@ -1,7 +1,10 @@
 <script>
 	import links from '../data/links.json';
 	import Drawer from './drawer.svelte';
+	import Ball from '../components/ball.svelte';
 </script>
+
+<Ball />
 
 <div class="wrapper">
 	<header>
