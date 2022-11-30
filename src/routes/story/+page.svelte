@@ -13,6 +13,14 @@
 
 <div class="page">
 	
+	<p>
+		We decided post-pandemic to start a dinner club. With all the comotion 
+	</p>
+
+	<p>
+		And where do the best memories happen? At the dinner table of course!
+	</p>
+
 	<p>La Cena ("The Dinner") Club was born out of the desire to break bread with fresh company in the Austin area.</p>
 
 	<p>
@@ -51,50 +59,4 @@
 </div>
 
 <style lang="scss">
-	.logo-grid {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 2rem;
-
-		img {
-			@media screen and (max-width: $breakpoint) {
-				max-width: 50px;
-			}
-
-			@media screen and (min-width: $breakpoint) {
-				max-width: 80px;
-			}
-
-			cursor: pointer;
-			transition: all 0.2s ease;
-			object-fit: contain;
-
-			&:hover {
-				transform: scale(1.04);
-				opacity: 0.9;
-			}
-
-			&:active {
-				transform: scale(0.94);
-				opacity: 1;
-			}
-		}
-	}
-
-	.breaker-img {
-		max-height: 400px;
-		max-width: 800px;
-		margin: 2rem auto;
-		display: block;
-	}
-
-	.profile-img {
-		text-align: center;
-
-		img {
-			width: 10rem;
-			height: 10rem;
-			border-radius: 50%;
-		}
-	}
 </style>

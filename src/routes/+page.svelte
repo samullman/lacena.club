@@ -25,7 +25,7 @@
 	</p>
 
 	<p>
-		Hope to see you soon. 
+		Hope to  <a href="/calendar">see you soon</a>.
 	</p>
 
 	

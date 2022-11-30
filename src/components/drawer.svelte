@@ -104,12 +104,11 @@
 
 		<div class="contents">
 			<!-- <h3>{$page.url.host}</h3> -->
-				<a href="/" class="cancel-background">
+			<a href="/" class="cancel-background" on:click={() => (open = false)}>
 				<img src="/la-cena-logo-alt.svg" alt="La Cena Logo" />
 			</a>
 
 			<nav>
-
 				{#each links as link}
 					<div>
 						<a href={link.url} title={link.title} on:click={() => (open = false)}>
@@ -129,6 +128,9 @@
 		position: fixed;
 		top: 0.75rem;
 		right: 0.75rem;
+		padding: 0.5rem;
+		background: #f5efe655;
+		backdrop-filter: blur(4px);
 		display: flex;
 		flex-direction: column-reverse;
 
@@ -172,19 +174,19 @@
 		}
 	}
 
-	.sunny-button {
-		padding-top: 0.44rem;
-		padding-bottom: 0.42rem;
+	// .sunny-button {
+	// 	padding-top: 0.44rem;
+	// 	padding-bottom: 0.42rem;
 
-		@media screen and (min-width: $breakpoint) {
-			padding-top: 0.4rem;
-		}
+	// 	@media screen and (min-width: $breakpoint) {
+	// 		padding-top: 0.4rem;
+	// 	}
 
-		svg {
-			width: 1.6rem;
-			margin-bottom: -0.2rem;
-		}
-	}
+	// 	svg {
+	// 		width: 1.6rem;
+	// 		margin-bottom: -0.2rem;
+	// 	}
+	// }
 
 	.chevron-button {
 		svg {
@@ -192,6 +194,10 @@
 		}
 		opacity: 1;
 		transition: 0.2s ease;
+	}
+
+	.back-to-top {
+		width: 100%;
 	}
 
 	.back-to-top.hidden {
@@ -219,7 +225,6 @@
 
 		.contents {
 			padding: 2rem;
-			
 
 			img {
 				max-width: 280px;
@@ -245,9 +250,11 @@
 	button {
 		font-size: 1.5rem;
 		padding: 0.35rem 0.75rem;
+		width: 100%;
 		background: $middle-green;
 		border: none;
 		color: $light;
+
 		border-radius: 0.25rem;
 
 		&:hover {

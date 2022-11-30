@@ -10,13 +10,13 @@
 	</div>
 
 	<div class="built-with">
-		Built with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a> 🤯
+		Built with <a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a> 🤯
 	</div>
 </footer>
 
 <style lang="scss">
 	footer {
-		max-width: 42rem;
+		max-width: $max-width;
 		margin: 0 auto;
 		margin-top: 4rem;
 		margin-bottom: 1rem;

@@ -10,7 +10,7 @@
 				<img src="/la-cena-logo-alt.svg" alt="La Cena Logo" />
 			</a>
 
-				<!-- <a href="/" class="cancel-background">
+			<!-- <a href="/" class="cancel-background">
 				lacena.club
 			</a> -->
 		</div>
@@ -43,12 +43,11 @@
 		font-family: $header-font;
 		max-width: 280px;
 		margin: 1rem 0;
-		
 
-		@media screen and (min-width: $breakpoint) { 
+		@media screen and (min-width: $breakpoint) {
 			max-width: 400px;
 			margin-bottom: 2rem;
-		margin-top: 1rem;
+			margin-top: 1rem;
 		}
 
 		a:hover {
@@ -57,7 +56,7 @@
 	}
 
 	header {
-		padding: 0.75rem;
+		padding: 1rem;
 
 		@media screen and (min-width: $breakpoint) {
 			padding: 2rem;
@@ -66,8 +65,6 @@
 
 	header,
 	nav {
-		
-
 		ul {
 			display: flex;
 			flex-direction: row;
